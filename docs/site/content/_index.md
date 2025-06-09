@@ -4,6 +4,12 @@ layout: hextra-home
 comments: false
 ---
 
+{{< hextra/hero-badge link="https://github.com/sponsors/NotReeceHarris" >}}
+  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
+  <span>Donate</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
   Low-latency, free-to-use, enterprise<br class="sm:hx-block hx-hidden" />level API for evey developer.
@@ -17,7 +23,7 @@ comments: false
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Get Started" link="docs/introduction/" >}}
 </div>
 
 <div class="hx-mt-6"></div>

@@ -323,5 +323,24 @@ For more options, check out &lt;a href=&#34;../guide/deploy-site&#34; &gt;Deploy
       </description>
     </item>
     
+    <item>
+      <title>Latest</title>
+      <link>http://localhost:1313/docs/exchange/latest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/exchange/latest/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Why do we require authentication for a free API? One major issue we’ve encountered is 🤖 BOTS consuming the entire daily request limit. To prevent this, we enforce authentication.&lt;/p&gt;
+&lt;p&gt;To authenticate, you’ll need to create an account using your mobile phone number. This is because temporary phone numbers are harder to generate than temporary email addresses.&lt;/p&gt;
+&lt;h2&gt;Creating an account&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-an-account&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creating-an-account&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Under our Terms of Service, each individual or company is limited to one account—employees may not create separate accounts for the same organization.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
