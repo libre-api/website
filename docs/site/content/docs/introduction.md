@@ -1,7 +1,7 @@
 ---
 title: Introduction
 weight: 1
-next: /docs/guide
+next: /docs/authentication
 comments: false
 ---
 

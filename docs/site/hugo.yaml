@@ -58,10 +58,6 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 3
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 4
     - name: Search
       weight: 5
       params:
@@ -72,19 +68,8 @@ menu:
       params:
         icon: github
 
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
-
 params:
-  description: Bidirectional, low-latency and secure communication for every platform.
+  description: Low-latency, free-to-use, enterprise level API for evey developer.
 
   navbar:
     displayTitle: true
