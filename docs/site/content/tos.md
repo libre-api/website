@@ -3,11 +3,6 @@ title: Terms of service
 comments: false
 ---
 
-Here’s the updated **Terms of Service (ToS)** with your requested additions, including an **indemnification clause** and explicit language about **unilateral changes to the ToS**.  
-
----  
-
-# **Libre API Terms of Service**  
 **Last Updated:** 11/06/2025
 
 By accessing or using **Libre API** ("the Service"), you agree to comply with and be bound by these Terms of Service ("ToS"). If you do not agree, you must not use the Service.  
