@@ -12,13 +12,13 @@ comments: false
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Low-latency, free-to-use, enterprise<br class="sm:hx-block hx-hidden" />level API for evey developer.
+  Low-latency, free-to-use, enterprise&nbsp;<br class="sm:hx-block hx-hidden" />level API for evey developer.
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Lightning-fast edge-function APIs<br class="sm:hx-block hx-hidden" />delivering diverse, high-quality data.
+  Lightning-fast edge-function APIs&nbsp;<br class="sm:hx-block hx-hidden" />delivering diverse, high-quality data.
 {{< /hextra/hero-subtitle >}}
 </div>
 

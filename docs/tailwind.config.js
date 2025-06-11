@@ -21,7 +21,7 @@ const makePrimaryColor =
 module.exports = {
   prefix: 'hx-',
   content: [
-    './**/hugo_stats.json',
+    './**/hugo_stats.json'
   ],
   safelist: [
     'max-w-screen-xl',

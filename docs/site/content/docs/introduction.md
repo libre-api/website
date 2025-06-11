@@ -5,188 +5,23 @@ next: /docs/authentication
 comments: false
 ---
 
-## Quick Start from Template
+Libre API is a versatile, developer-friendly edge-function API offering free access to multiple services. It delivers high-speed, high-quality APIs, supported by official and community SDKs, empowering developers without compromising performance.
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+## How does it work?
 
-You could quickly get started by using the above template repository.
+We leverage the [Cloudflare's Workers platform](https://workers.cloudflare.com/) to deliver lightning-fast edge-function responses. By harnessing Cloudflare's extensive network of [global data centers](https://www.cloudflare.com/en-gb/network/), we ensure low-latency, high-performance API access for developers worldwide. This infrastructure enables seamless, scalable service delivery, maintaining speed and reliability without compromising quality. Official and community-driven SDKs further simplify integration, empowering developers to build efficiently with our free-to-use, high-speed API ecosystem.
 
-<img src="https://docs.github.com/assets/cb-77734/mw-1440/images/help/repository/use-this-template-button.webp" width="500">
+## Why is it free?
 
-We have provided a [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) which can help automatically build and deploy your site to GitHub Pages, and host it for free.
-For more options, check out [Deploy Site](../guide/deploy-site).
+At Libre API, we believe developers shouldn't face unnecessary barriers when building web applications. It's frustrating to hit a paywall for essential features, especially for straightforward functions like address lookups, exchange rate data, or geolocation services. While some specialized APIs, such as payment processing, may require paid solutions, many core utilities should be freely accessible. 
 
-[🌐 Demo ↗](https://imfing.github.io/hextra-starter-template/)
+Libre API provides a robust, free-to-use platform, powered by Cloudflare's high-speed Workers and global data center network. Our goal is to empower developers with reliable, high-quality APIs without cost constraints, supported by official and community SDKs for seamless integration. By removing financial hurdles, we enable innovation and creativity to thrive, making development more inclusive and efficient.
 
-## Start as New Project
+**We kindly encourage users who rely on our services to consider making a donation. Your contributions help us maintain and enhance the platform, ensuring our developers can continue delivering high-quality, accessible APIs without financial strain. By supporting Libre API, you’re investing in a vibrant, inclusive developer ecosystem.**
 
-There are two main ways to add the Hextra theme to your Hugo project:
-
-1. **Hugo Modules (Recommended)**: The simplest and recommended method. [Hugo modules](https://gohugo.io/hugo-modules/) let you pull in the theme directly from its online source. Theme is downloaded automatically and managed by Hugo.
-
-2. **Git Submodule**: Alternatively, add Hextra as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules). The theme is downloaded by Git and stored in your project's `themes` folder.
-
-### Setup Hextra as Hugo module
-
-#### Prerequisites
-
-Before starting, you need to have the following software installed:
-
-- [Hugo (extended version)](https://gohugo.io/installation/)
-- [Git](https://git-scm.com/)
-- [Go](https://go.dev/)
-
-#### Steps
-
-{{% steps %}}
-
-### Initialize a new Hugo site
-
-```shell
-hugo new site my-site --format=yaml
-```
-
-### Configure Hextra theme via module
-
-```shell
-# initialize hugo module
-cd my-site
-hugo mod init github.com/username/my-site
-
-# add Hextra theme
-hugo mod get github.com/imfing/hextra
-```
-
-Configure `hugo.yaml` to use Hextra theme by adding the following:
-
-```yaml
-module:
-  imports:
-    - path: github.com/imfing/hextra
-```
-
-### Create your first content pages
-
-Create new content page for the home page and the documentation page:
-
-```shell
-hugo new content/_index.md
-hugo new content/docs/_index.md
-```
-
-### Preview the site locally
-
-```shell
-hugo server --buildDrafts --disableFastRender
-```
-
-Voila, your new site preview is available at `http://localhost:1313/`.
-
-{{% /steps %}}
-
-
-{{% details title="How to update theme?" %}}
-
-To update all Hugo modules in your project to their latest versions, run the following command:
-
-```shell
-hugo mod get -u
-```
-
-To update Hextra to the [latest released version](https://github.com/imfing/hextra/releases), run the following command:
-
-```shell
-hugo mod get -u github.com/imfing/hextra
-```
-
-See [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/#update-all-modules) for more details.
-
-{{% /details %}}
-
-### Setup Hextra as Git submodule
-
-#### Prerequisites
-
-Before starting, you need to have the following software installed:
-
-- [Hugo (extended version)](https://gohugo.io/installation/)
-- [Git](https://git-scm.com/)
-
-#### Steps
-
-{{% steps %}}
-
-### Initialize a new Hugo site
-
-```shell
-hugo new site my-site --format=yaml
-```
-
-### Add Hextra theme as a Git submodule
-
-```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
-```
-
-Configure `hugo.yaml` to use Hextra theme by adding the following:
-
-```yaml
-theme: hextra
-```
-
-### Create your first content pages
-
-Create new content page for the home page and the documentation page:
-
-```shell
-hugo new content/_index.md
-hugo new content/docs/_index.md
-```
-
-### Preview the site locally
-
-```shell
-hugo server --buildDrafts --disableFastRender
-```
-
-Your new site preview is available at `http://localhost:1313/`.
-
-{{% /steps %}}
-
-
-When using [CI/CD](https://en.wikipedia.org/wiki/CI/CD) for Hugo website deployment, it's essential to ensure that the following command is executed before running the `hugo` command.
-
-```shell
-git submodule update --init
-```
-
-Failure to run this command results in the theme folder not being populated with Hextra theme files, leading to a build failure.
-
-
-{{% details title="How to update theme?" %}}
-
-To update all submodules in your repository to their latest commits, run the following command:
-
-```shell
-git submodule update --remote
-```
-
-To update Hextra to the latest commit, run the following command:
-
-```shell
-git submodule update --remote themes/hextra
-```
-
-See [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for more details.
-
-{{% /details %}}
-
-## Next
-
-Explore the following sections to start adding more contents:
+<br>
 
 {{< cards >}}
-  {{< card link="../guide/organize-files" title="Organize Files" icon="document-duplicate" >}}
-  {{< card link="../guide/configuration" title="Configuration" icon="adjustments" >}}
-  {{< card link="../guide/markdown" title="Markdown" icon="markdown" >}}
+  {{< card link="../authentication" title="Authentication" icon="shield-check" >}}
+  {{< card link="../sdk" title="SDK's" icon="sdk" >}}
 {{< /cards >}}
